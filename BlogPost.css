@@ -1,0 +1,62 @@
+body 
+{
+   background-color: light green;
+}
+.navbar-dark
+{
+  background-color: #1DE9B6;
+} 
+.navbar2-dark
+{
+  background-color: #1DE9B6;
+}
+.vertical
+{
+      border-left: 2px solid#1DE9B6;
+      height: 400px;
+      position: absolute;
+      
+      left: 50%;
+      top: 16%; 
+}
+
+.footer 
+{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1DE9B6;
+    color: white;
+    text-align: center;
+}
+#table-scroll 
+{
+  height:330px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table
+{
+  width:100%;
+}
+table.t, th, td, th.setoolwidth 
+{     
+    border: 2px solid black;
+    right: 478px;
+    border-collapse: collapse;
+    
+     text-align: center;
+    width:80% !important;
+    height: 15px;
+    top:100px;
+}
+table.t, t
+{
+    height: 12px;
+    overflow-y:scroll;
+}
+
+
+
+
